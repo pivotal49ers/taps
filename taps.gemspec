@@ -16,13 +16,13 @@ Gem::Specification.new do |gem|
   gem.add_dependency "rack",          ">= 1.0.1"
   gem.add_dependency "rest-client",   ">= 1.4.0", "< 1.7.0"
   gem.add_dependency "sequel",        "~> 3.20.0"
-  gem.add_dependency "sinatra",       "~> 1.0.0"
+  gem.add_dependency "sinatra",       "~> 1.0"
 
   gem.add_development_dependency "sqlite3", "~> 1.2"
   gem.add_development_dependency "bacon"
   gem.add_development_dependency "mocha"
   gem.add_development_dependency "rack-test"
   gem.add_development_dependency "rake"
-  gem.add_development_dependency "rcov"
+  gem.add_development_dependency "simplecov-rcov"
 end
 
